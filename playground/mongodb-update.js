@@ -17,7 +17,6 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp',{useNewUrlParser :true},
     // ).then((result)=>{
     //     console.log(result);
     // })
-
     
     db.collection('Users').findOneAndUpdate
     ({_id: new ObjectID('5bd65123d71ca8d67b621c11')},
